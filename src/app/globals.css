@@ -10,22 +10,14 @@
 
 body {
   background-color: var(--bg-color);
+  margin: 0 10vw;
+  position: relative;
+
+  /* dev properties should be removed at the end */
+  height: 50vh;
 }
 
-.bred {
-  border: 1px solid red;
-}
-
-.bgreen {
-  border: 1px solid green;
-  ;
-}
-
-.bblue {
-  border: 1px solid blue;
-  ;
-}
-
-.bpurple {
-  border: 1px solid purple;
+.link {
+  text-decoration: none;
+  color: inherit;
 }
