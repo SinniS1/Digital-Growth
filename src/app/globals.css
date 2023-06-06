@@ -1,5 +1,6 @@
 :root {
   --bg-color: #ededed;
+  --bg-btn-clr: blue;
 }
 
 * {
@@ -12,9 +13,6 @@ body {
   background-color: var(--bg-color);
   margin: 0 10vw;
   position: relative;
-
-  /* dev properties should be removed at the end */
-  height: 50vh;
 }
 
 .link {
