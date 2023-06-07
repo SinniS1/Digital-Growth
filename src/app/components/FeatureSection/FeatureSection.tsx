@@ -10,6 +10,7 @@ const FeatureSection = ({
   btn2,
   btn2Link,
   image,
+  profileImage,
   isLeftImage,
   CardClassName
 }: props) => {
@@ -17,9 +18,13 @@ const FeatureSection = ({
     // <div className={CardClassName}>
     <div className={`FeatureSection ${CardClassName}`}>
       {isLeftImage && (
-        <div className='FeatureSection__image'>
+        <div>
           {/* eslint-disable-next-line @next/next/no-img-element */}
-          <img src={image} alt='FeatureSection' className='FeatureSection__image' />
+          <img
+            src={image}
+            alt='FeatureSection__image'
+            className={`FeatureSection__image ${profileImage ? 'ProfileImage' : ''}`}
+          />
         </div>
       )}
       <div className='FeatureSection__content'>
@@ -39,9 +44,13 @@ const FeatureSection = ({
         </div>
       </div>
       {isLeftImage || (
-        <div className='FeatureSection__image'>
+        <div>
           {/* eslint-disable-next-line @next/next/no-img-element */}
-          <img src={image} alt='FeatureSection' className='FeatureSection__image' />
+          <img
+            src={image}
+            alt='FeatureSection__image'
+            className={`FeatureSection__image ${profileImage ? 'ProfileImage' : ''}`}
+          />
         </div>
       )}
     </div>

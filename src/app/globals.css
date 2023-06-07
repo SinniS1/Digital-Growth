@@ -1,6 +1,8 @@
 :root {
   --bg-color: #ededed;
   --bg-btn-clr: blue;
+  --bg-card: #e4e4e4;
+  --bg-cardShadow: #c9c9c9;
 }
 
 * {

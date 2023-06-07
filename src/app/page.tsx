@@ -1,3 +1,4 @@
+import Link from 'next/link'
 import FeatureSection from './components/FeatureSection/FeatureSection'
 import styles from './page.module.css'
 export default function Home() {
@@ -19,18 +20,16 @@ export default function Home() {
       />
 
       {/* Online Presence section with card */}
-      <div className='CardContainer'>
-        <FeatureSection
-          heading='Give your business online presence.'
-          headingSize='3vw'
-          para={`Our digital solutions can transform your business into a growth engine.`}
-          btn1='Contact Us'
-          btn1Link='/contact'
-          image='./OnlinePresence.png'
-          isLeftImage={false}
-          CardClassName='CardContainer'
-        />
-      </div>
+      <FeatureSection
+        heading='Give your business online presence.'
+        headingSize='3vw'
+        para={`Our digital solutions can transform your business into a growth engine.`}
+        btn1='Contact Us'
+        btn1Link='/contact'
+        image='./OnlinePresence.png'
+        isLeftImage={false}
+        CardClassName='CardContainer'
+      />
 
       {/* Web Development section */}
       <FeatureSection
@@ -62,6 +61,42 @@ export default function Home() {
         image='./DigitalMarketing.png'
         isLeftImage={true}
       />
+
+      {/* Work Flow Section*/}
+      <section className='CardContainer WorkFlow'>
+        <div className='Left__Hand'>
+          {/* eslint-disable-next-line @next/next/no-img-element */}
+          <img src='./WorkFlow1.png' alt='WorkFlow__image' className='WorkFlow__image' />
+          <p className='StepPara'>
+            We follow 3 industry standard steps to serve every product at its best.
+          </p>
+          <Link className='link btn btn1' href={'/contact'}>
+            Contact Us
+          </Link>
+        </div>
+        <div className='Right__Hand'>
+          <div className='Step'>
+            <span className='StepHeading'>Step 1</span>
+            <span className='StepPara'>
+              {` We will take your personalized requirements and will make a roadmap to serve you the best.`}
+            </span>
+          </div>
+          <div className='Line' />
+          <div className='Step'>
+            <span className='StepHeading'>Step 2</span>
+            <span className='StepPara'>
+              {`Our specialist will prepare some prototypes which then be used as a template for the final product.`}
+            </span>
+          </div>
+          <div className='Line' />
+          <div className='Step'>
+            <span className='StepHeading'>Step 3</span>
+            <span className='StepPara'>
+              {`We will upload the final product on internet or on multiple sources which then will serve your clients.`}
+            </span>
+          </div>
+        </div>
+      </section>
     </main>
   )
 }

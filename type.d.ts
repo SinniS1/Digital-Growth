@@ -7,6 +7,7 @@ type props = {
   btn2?: string
   btn2Link?: string
   image: string
+  profileImage?: boolean
   isLeftImage: boolean
   CardClassName?: string
 }
