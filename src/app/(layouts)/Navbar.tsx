@@ -12,17 +12,17 @@ const Navbar = () => {
       </span>
       <div className={styles.pages__links}>
         <span>
-          <Link className='link' href={'/service'}>
+          <Link className='link linkUnderline' href={'/service'}>
             service
           </Link>
         </span>
         <span>
-          <Link className='link' href={'/about'}>
+          <Link className='link linkUnderline' href={'/about'}>
             about us
           </Link>
         </span>
         <span>
-          <Link className='link' href={'/contact'}>
+          <Link className='link linkUnderline' href={'/contact'}>
             contact
           </Link>
         </span>

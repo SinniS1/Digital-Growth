@@ -5,16 +5,17 @@ const FeatureSection = ({
   heading,
   headingSize,
   para,
-  paraSize,
   btn1,
   btn1Link,
   btn2,
   btn2Link,
   image,
-  isLeftImage
+  isLeftImage,
+  CardClassName
 }: props) => {
   return (
-    <div className='FeatureSection'>
+    // <div className={CardClassName}>
+    <div className={`FeatureSection ${CardClassName}`}>
       {isLeftImage && (
         <div className='FeatureSection__image'>
           {/* eslint-disable-next-line @next/next/no-img-element */}
@@ -44,6 +45,7 @@ const FeatureSection = ({
         </div>
       )}
     </div>
+    // </div>
   )
 }
 
