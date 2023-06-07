@@ -113,7 +113,7 @@
 }
 
 .Left__Hand {
-    border: 1px solid/ blue;
+    /* border: 1px solid blue; */
     width: 35vw;
     display: flex;
     flex-direction: column;
