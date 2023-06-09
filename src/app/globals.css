@@ -26,7 +26,7 @@ body {
 }
 
 
-@media screen and (max-width: 425px) {
+@media screen and (max-width: 480px) {
   .linkUnderline {
     text-decoration: underline;
     text-underline-offset: 0.2em;
@@ -34,6 +34,10 @@ body {
 
   .link:active {
     color: blue;
+  }
+
+  body {
+    margin: 0 5vw;
   }
 
 }

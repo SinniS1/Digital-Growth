@@ -7,7 +7,6 @@ export default function Home() {
       {/* Home Section */}
       <FeatureSection
         heading={'Building Digital solutions, Fueling Business Growth'}
-        headingSize={'3.48vw'}
         para={
           'Empower your business with our custom digital solutions. We specialize in building powerful websites, intuitive apps, and result-driven marketing campaigns to fuel your growth. '
         }
@@ -22,7 +21,6 @@ export default function Home() {
       {/* Online Presence section with card */}
       <FeatureSection
         heading='Give your business online presence.'
-        headingSize='3vw'
         para={`Our digital solutions can transform your business into a growth engine.`}
         btn1='Contact Us'
         btn1Link='/contact'
@@ -34,7 +32,6 @@ export default function Home() {
       {/* Web Development section */}
       <FeatureSection
         heading='Website Development'
-        headingSize='3vw'
         para='We specialize in crafting exceptional digital experiences through expert development. Our team combines cutting-edge technology, creative design, and seamless functionality to build websites that captivate audiences and drive business growth.'
         btn1='Hire Us'
         btn1Link='/contact'
@@ -44,7 +41,6 @@ export default function Home() {
       {/* App Development */}
       <FeatureSection
         heading='Mobile App Development'
-        headingSize='3vw'
         para={`Empower your business with custom mobile solutions tailored to your unique needs. Our app development expertise combines sleek design, intuitive functionality, and seamless integration to deliver apps that drive customer engagement and enhance your brand's digital presence.`}
         btn1='Hire Us'
         btn1Link='/contact'
@@ -54,8 +50,7 @@ export default function Home() {
       {/* DigitalMarketing */}
       <FeatureSection
         heading='Digital Marketing'
-        headingSize='3vw'
-        para={`Unlock your business's growth potential with our data-driven marketing solutions.From search engine optimization (SEO) to social media marketing and content creation, we provide the expertise and tools you need to build a strong Online presence.`}
+        para={`Unlock your business's growth potential with our data-driven marketing solutions. From social media marketing and content creation, we provide the expertise and tools you nseed to build a strong Online presence.`}
         btn1='Hire Us'
         btn1Link='/contact'
         image='./DigitalMarketing.png'
