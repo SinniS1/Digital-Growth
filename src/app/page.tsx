@@ -1,9 +1,8 @@
 import Link from 'next/link'
 import FeatureSection from './components/FeatureSection/FeatureSection'
-import styles from './page.module.css'
 export default function Home() {
   return (
-    <main className={styles.main}>
+    <main>
       {/* Home Section */}
       <FeatureSection
         heading={'Building Digital solutions, Fueling Business Growth'}
@@ -50,7 +49,7 @@ export default function Home() {
       {/* DigitalMarketing */}
       <FeatureSection
         heading='Digital Marketing'
-        para={`Unlock your business's growth potential with our data-driven marketing solutions. From social media marketing and content creation, we provide the expertise and tools you nseed to build a strong Online presence.`}
+        para={`Unlock your business's growth potential with our data-driven marketing solutions. From social media marketing and content creation, we provide the expertise and tools you need to build a strong Online presence.`}
         btn1='Hire Us'
         btn1Link='/contact'
         image='./DigitalMarketing.png'
