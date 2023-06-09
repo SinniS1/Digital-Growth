@@ -3,7 +3,6 @@ import './FeatureSection.css'
 
 const FeatureSection = ({
   heading,
-  headingSize,
   para,
   btn1,
   btn1Link,
@@ -28,9 +27,7 @@ const FeatureSection = ({
         </div>
       )}
       <div className='FeatureSection__content'>
-        <header className='FeatureSection__heading' style={{ fontSize: headingSize }}>
-          {heading}
-        </header>
+        <header className='FeatureSection__heading'>{heading}</header>
         <p className='FeatureSection__para'>{para}</p>
         <div className='FeatureSection__content__btns'>
           <Link className='link btn btn1' href={btn1Link}>
