@@ -13,7 +13,7 @@ export default function Home() {
         btn1Link={'/contact'}
         btn2={'Our Services'}
         btn2Link={'/service'}
-        image={'./HomePageImage.png'}
+        image={'./HomePageImage.webp'}
         isLeftImage={false}
       />
 
@@ -23,7 +23,7 @@ export default function Home() {
         para={`Our digital solutions can transform your business into a growth engine.`}
         btn1='Contact Us'
         btn1Link='/contact'
-        image='./OnlinePresence.png'
+        image='./OnlinePresence.webp'
         isLeftImage={false}
         CardClassName='CardContainer'
       />
@@ -34,7 +34,9 @@ export default function Home() {
         para='We specialize in crafting exceptional digital experiences through expert development. Our team combines cutting-edge technology, creative design, and seamless functionality to build websites that captivate audiences and drive business growth.'
         btn1='Hire Us'
         btn1Link='/contact'
-        image='./WebsiteDevelopment.png'
+        btn2='About Us'
+        btn2Link='/about'
+        image='./WebsiteDevelopment.webp'
         isLeftImage={true}
       />
       {/* App Development */}
@@ -43,7 +45,9 @@ export default function Home() {
         para={`Empower your business with custom mobile solutions tailored to your unique needs. Our app development expertise combines sleek design, intuitive functionality, and seamless integration to deliver apps that drive customer engagement and enhance your brand's digital presence.`}
         btn1='Hire Us'
         btn1Link='/contact'
-        image='./AppDevelopment.png'
+        btn2='About Us'
+        btn2Link='/about'
+        image='./AppDevelopment.webp'
         isLeftImage={false}
       />
       {/* DigitalMarketing */}
@@ -52,7 +56,9 @@ export default function Home() {
         para={`Unlock your business's growth potential with our data-driven marketing solutions. From social media marketing and content creation, we provide the expertise and tools you need to build a strong Online presence.`}
         btn1='Hire Us'
         btn1Link='/contact'
-        image='./DigitalMarketing.png'
+        btn2='About Us'
+        btn2Link='/about'
+        image='./DigitalMarketing.webp'
         isLeftImage={true}
       />
 
@@ -60,7 +66,7 @@ export default function Home() {
       <section className='CardContainer WorkFlow'>
         <div className='Left__Hand'>
           {/* eslint-disable-next-line @next/next/no-img-element */}
-          <img src='./WorkFlow1.png' alt='WorkFlow__image' className='WorkFlow__image' />
+          <img src='./WorkFlow1.webp' alt='WorkFlow__image' className='WorkFlow__image' />
           <p className='StepPara'>
             We follow 3 industry standard steps to serve every product at its best.
           </p>
