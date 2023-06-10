@@ -72,17 +72,16 @@
 
 /* ProfileImage */
 .ProfileImage {
-    width: 35vw;
+    width: 25vw;
     object-fit: cover;
     border-radius: 40%;
-    margin: 10px 5px 5px 2px;
 }
 
 /* Card Container */
 
 .CardContainer {
     /* border: 1px solid blue; */
-    padding-left: 10px;
+    padding: 10px;
     background-color: #ffffff;
     border-radius: 20px;
     position: relative;
@@ -245,5 +244,10 @@
 
     .Line {
         border-top: 1px solid #d0d0d0;
+    }
+
+    .ProfileImage {
+        width: 45vw;
+        border-radius: 50%;
     }
 }

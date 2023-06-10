@@ -34,6 +34,8 @@ export default function Home() {
         para='We specialize in crafting exceptional digital experiences through expert development. Our team combines cutting-edge technology, creative design, and seamless functionality to build websites that captivate audiences and drive business growth.'
         btn1='Hire Us'
         btn1Link='/contact'
+        btn2='About Us'
+        btn2Link='/about'
         image='./WebsiteDevelopment.png'
         isLeftImage={true}
       />
@@ -43,6 +45,8 @@ export default function Home() {
         para={`Empower your business with custom mobile solutions tailored to your unique needs. Our app development expertise combines sleek design, intuitive functionality, and seamless integration to deliver apps that drive customer engagement and enhance your brand's digital presence.`}
         btn1='Hire Us'
         btn1Link='/contact'
+        btn2='About Us'
+        btn2Link='/about'
         image='./AppDevelopment.png'
         isLeftImage={false}
       />
@@ -52,6 +56,8 @@ export default function Home() {
         para={`Unlock your business's growth potential with our data-driven marketing solutions. From social media marketing and content creation, we provide the expertise and tools you need to build a strong Online presence.`}
         btn1='Hire Us'
         btn1Link='/contact'
+        btn2='About Us'
+        btn2Link='/about'
         image='./DigitalMarketing.png'
         isLeftImage={true}
       />

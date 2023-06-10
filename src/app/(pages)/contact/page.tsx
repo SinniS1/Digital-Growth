@@ -40,7 +40,7 @@ const Page = () => {
             type='text'
             id='Contact__Message'
             name='Project__Requirements'
-            placeholder='eg:- Website, Mobile App ...'
+            placeholder='eg:- Website for my sales business, ...'
             required
           />
           <button type='submit' className='Contact__Button'>

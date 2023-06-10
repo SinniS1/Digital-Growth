@@ -22,7 +22,7 @@ const FeatureSection = ({
           <img
             src={image}
             alt='FeatureSection__image'
-            className={`FeatureSection__image ${profileImage ? 'ProfileImage' : ''}`}
+            className={`${profileImage ? 'ProfileImage' : 'FeatureSection__image'}`}
           />
         </div>
       )}
@@ -46,7 +46,7 @@ const FeatureSection = ({
           <img
             src={image}
             alt='FeatureSection__image'
-            className={`FeatureSection__image ${profileImage ? 'ProfileImage' : ''}`}
+            className={`${profileImage ? 'ProfileImage' : 'FeatureSection__image'}`}
           />
         </div>
       )}

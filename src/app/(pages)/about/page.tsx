@@ -1,6 +1,5 @@
 import React from 'react'
 import './AboutPage.css'
-import '../../components/FeatureSection/FeatureSection.css'
 import FeatureSection from '@/app/components/FeatureSection/FeatureSection'
 
 const page = () => {
@@ -20,17 +19,17 @@ const page = () => {
       <div className='About_Section2'>
         <span className='About__Heading Section2__Heading'>{`Let's give your business online presence.`}</span>
         {/* eslint-disable-next-line @next/next/no-img-element */}
-        <img src='./6.png' alt='Section2__Image' className='About__Image' />
+        <img src='./5.png' alt='Section2__Image' className='Section2__Image' />
       </div>
       <div className='About_Section3'>
         <div className='Section3_Team'>
           <span className='About__Heading'>Our Team</span>
-          <p className='About__Para'>{`Meet the peoples behind the magic`}</p>
+          <p className='About__Para'>{`Meet the people behind the magic`}</p>
         </div>
         <FeatureSection
           heading={'Sachin Yadav'}
           para={`Meet Sachin Yadav, a highly motivated and skilled web developer with a passion for creating engaging and user-friendly web applications. With a strong foundation in web technologies and responsive web design, Sachin brings a keen eye for detail and a collaborative mindset to every project.`}
-          btn1={'Contact Us'}
+          btn1={'Web Development'}
           btn1Link={'/contact'}
           image='./SachinProfile.jpg'
           profileImage={true}
@@ -39,8 +38,8 @@ const page = () => {
         />
         <FeatureSection
           heading={'Sukhvinder Singh'}
-          para={`Sukhvinder Singh, a highly motivated and skilled App developer with a passion for creating engaging and user-friendly mobile applications. With a strong foundation in App technologies . Sukhvinder brings a keen eye for detail and a collaborative mindset to every project.`}
-          btn1={'Contact Us'}
+          para={`Introducing Sukhvinder Singh, an accomplished App Developer with a passion for creating innovative mobile applications. With expertise in app development technologies and a keen eye for user experience, Sukhvinder brings a strong skill set to deliver mobile solutions.`}
+          btn1={'App Development'}
           btn1Link={'/contact'}
           image='./SachinProfile.jpg'
           profileImage={true}
@@ -49,8 +48,8 @@ const page = () => {
         />
         <FeatureSection
           heading={'Bharat Yadav'}
-          para={`Introducing Bharat Yadav, a skilled Digital Marketing Manager. With a strong focus on driving successful digital campaigns, Bharat brings expertise in leveraging various marketing channels, increasing brand visibility, and generating qualified leads. With a strategic mindset and a keen eye for market trends, Bharat is dedicated to achieving outstanding results in the digital landscape.`}
-          btn1={'Contact Us'}
+          para={`Introducing Bharat Yadav, a skilled Digital Marketing Manager. With a strong focus on driving successful digital campaigns, Bharat brings expertise in leveraging various marketing channels, increasing brand visibility. With a strategic mindset Bharat is dedicated to achieving outstanding results in the digital landscape.`}
+          btn1={'Digital Marketing'}
           btn1Link={'/contact'}
           image='./SachinProfile.jpg'
           profileImage={true}
