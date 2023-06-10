@@ -1,7 +1,7 @@
 import React from 'react'
-
+import './ServicePage.css'
 const page = () => {
-  return <div>Service</div>
+  return <main className='ServicePage'>sachin</main>
 }
 
 export default page

@@ -4,7 +4,7 @@ const Page = () => {
   return (
     <main className='ContactPage'>
       {/* eslint-disable-next-line @next/next/no-img-element */}
-      <img src='./ContactImage.png' alt='Contact__Image' className='Contact__Image' />
+      <img src='./ContactImage.webp' alt='Contact__Image' className='Contact__Image' />
       <div className='Contact__Form'>
         <div className='Contact__Title'>
           <span className='Contact__Heading'>Contact Us</span>
@@ -13,7 +13,7 @@ const Page = () => {
             <span>Feel free to get in touch.</span>
           </p>
         </div>
-        <form className='form' method='POST' action={''}>
+        <form className='form' method='POST' action={'https://formspree.io/f/mayzggbb'}>
           <label htmlFor='Contact__Name'>Name</label>
           <input type='text' id='Contact__Name' name='Name' placeholder='Your full name' required />
           <label htmlFor='Contact__Email'>Email</label>

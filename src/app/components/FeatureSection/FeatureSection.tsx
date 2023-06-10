@@ -23,6 +23,7 @@ const FeatureSection = ({
             src={image}
             alt='FeatureSection__image'
             className={`${profileImage ? 'ProfileImage' : 'FeatureSection__image'}`}
+            style={{ marginRight: profileImage ? '5px' : '0' }}
           />
         </div>
       )}
@@ -47,6 +48,7 @@ const FeatureSection = ({
             src={image}
             alt='FeatureSection__image'
             className={`${profileImage ? 'ProfileImage' : 'FeatureSection__image'}`}
+            style={{ marginLeft: profileImage ? '5px' : '0' }}
           />
         </div>
       )}
