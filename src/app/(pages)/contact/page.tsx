@@ -1,5 +1,8 @@
 import './contactPage.css'
-
+export const metadata = {
+  title: 'DigitalGrowth: Contact Us',
+  description: 'Contact Form page of DigitalGrowth'
+}
 const Page = () => {
   return (
     <main className='ContactPage'>
