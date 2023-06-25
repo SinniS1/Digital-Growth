@@ -1,3 +1,49 @@
-.ServicePage {
+/* .ServicePage {
     border: 1px solid red;
+} */
+
+
+.ServicePage__Landing {
+    /* border: 1px solid blue; */
+    width: 52vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 2vw auto 8vw auto;
 }
+
+.Service__Image {
+    /* border: 1px solid blue; */
+    width: 50vw;
+    margin: 3vw 0;
+}
+
+.Service__Heading {
+    font-size: 3vw;
+    font-weight: 600;
+}
+
+.Service__Para {
+    font-size: 1vw;
+    color: rgb(59, 59, 59);
+    text-align: center;
+}
+
+
+/* Card Section */
+.CardSection {
+    /* border: 1px solid green; */
+    width: 45vw;
+    justify-content: center;
+    display: flex;
+    gap: 2vw;
+    flex-wrap: wrap;
+    margin: 2vw auto 0 auto;
+}
+
+
+/* Responsiveness */
+@media screen and (max-width:768px) {}
+
+
+@media screen and (max-width:480px) {}
