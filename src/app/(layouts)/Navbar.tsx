@@ -18,7 +18,7 @@ const Navbar = () => {
         </span>
         <span>
           <Link className='link linkUnderline' href={'/about'}>
-            about us
+            about
           </Link>
         </span>
         <span>

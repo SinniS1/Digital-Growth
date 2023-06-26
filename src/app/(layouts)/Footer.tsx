@@ -46,7 +46,7 @@ const Footer = () => {
           </span>
           <span>
             <Link className='link' href={'/'}>
-              Terms of Service
+              Terms & Service
             </Link>
           </span>
         </div>

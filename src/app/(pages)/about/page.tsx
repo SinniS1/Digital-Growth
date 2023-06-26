@@ -1,7 +1,10 @@
 import React from 'react'
 import './AboutPage.css'
 import FeatureSection from '@/app/components/FeatureSection/FeatureSection'
-
+export const metadata = {
+  title: 'DigitalGrowth: About Us',
+  description: 'About page of DigitalGrowth'
+}
 const page = () => {
   return (
     <main className='AboutPage'>
