@@ -13,9 +13,9 @@ const CardSection = ({ tech_img, prj_img, imgLink, Heading }: Props) => {
     <a href={imgLink} target='_blank'>
       <div className='Card'>
         {tech_img ? (
-          <img src={tech_img} alt='Card__Image' width={100} height={80} />
+          <img src={tech_img} alt='Card__Image' id='tech_img' />
         ) : (
-          <img src={prj_img} alt='Card__Image' width={180} height={100} />
+          <img src={prj_img} alt='Card__Image' id='prj_img' />
         )}
         <span className='Card_Heading'>{Heading}</span>
       </div>

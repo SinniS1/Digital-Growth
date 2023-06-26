@@ -1,21 +1,22 @@
-/* .ServicePage {
-    border: 1px solid red;
-} */
+.ServicePage {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 2vw 0;
+    gap: 10vw;
+}
 
 
 .ServicePage__Landing {
-    /* border: 1px solid blue; */
     width: 52vw;
     display: flex;
     flex-direction: column;
     align-items: center;
-    margin: 2vw auto 8vw auto;
 }
 
 .Service__Image {
-    /* border: 1px solid blue; */
     width: 50vw;
-    margin: 3vw 0;
+    margin-top: 3vw;
 }
 
 .Service__Heading {
@@ -32,18 +33,59 @@
 
 /* Card Section */
 .CardSection {
-    /* border: 1px solid green; */
     width: 45vw;
     justify-content: center;
     display: flex;
     gap: 2vw;
     flex-wrap: wrap;
-    margin: 2vw auto 0 auto;
+    margin-top: 3vw;
 }
 
 
 /* Responsiveness */
-@media screen and (max-width:768px) {}
+@media screen and (max-width:768px) {
+    .ServicePage__Landing {
+        width: 80vw;
+    }
+
+    .Service__Image {
+        width: 75vw;
+    }
+
+    .Service__Heading {
+        font-size: 4vw;
+    }
+
+    .Service__Para {
+        font-size: 1.5vw;
+    }
+
+    .CardSection {
+        width: 80vw;
+        gap: 4vw;
+    }
+}
 
 
-@media screen and (max-width:480px) {}
+@media screen and (max-width:480px) {
+    .CardSection {
+        gap: 5vw;
+    }
+
+    .ServicePage__Landing {
+        width: 80vw;
+    }
+
+    .Service__Image {
+        width: 75vw;
+    }
+
+    .Service__Heading {
+        font-size: 5vw;
+    }
+
+    .Service__Para {
+        font-size: 2.5vw;
+    }
+
+}

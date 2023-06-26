@@ -1,5 +1,4 @@
 .Card {
-    /* border: 1px solid red; */
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -30,4 +29,47 @@ a {
 img {
     object-fit: fill;
     border-radius: 10px;
+}
+
+#tech_img {
+    height: 60px;
+    width: 80px;
+}
+
+#prj_img {
+    height: 110px;
+    width: 180px;
+}
+
+@media screen and (max-width:768px) {
+    .Card_Heading {
+        font-size: 1.5vw;
+    }
+
+    #tech_img {
+        height: 40px;
+        width: 60px;
+    }
+
+    #prj_img {
+        width: 110px;
+        height: 70px;
+    }
+}
+
+
+@media screen and (max-width:480px) {
+    .Card_Heading {
+        font-size: 2.5vw;
+    }
+
+    #tech_img {
+        height: 30px;
+        width: 50px;
+    }
+
+    #prj_img {
+        width: 100px;
+        height: 60px;
+    }
 }
