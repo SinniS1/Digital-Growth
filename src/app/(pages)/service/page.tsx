@@ -14,7 +14,7 @@ const page = () => {
           {`Our unrivaled digital solutions set a new benchmark for excellence, empowering businesses to outshine the competition and achieve unprecedented success in the digital landscape`}
         </p>
         {/* eslint-disable-next-line @next/next/no-img-element */}
-        <img src='./Services.webp' alt='Service__Image' className='Service__Image' />
+        <img src='./services.webp' alt='Service__Image' className='Service__Image' />
       </div>
       {/* Technology Section */}
       <div className='ServicePage__Landing'>
