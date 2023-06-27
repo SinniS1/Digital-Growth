@@ -1,6 +1,7 @@
 import React from 'react'
 import './ServicePage.css'
 import CardSection from '@/app/components/CardSection/CardSection'
+import Image from 'next/image'
 export const metadata = {
   title: 'DigitalGrowth: Services',
   description: 'Services page of DigitalGrowth'
@@ -14,7 +15,20 @@ const page = () => {
           {`Our unrivaled digital solutions set a new benchmark for excellence, empowering businesses to outshine the competition and achieve unprecedented success in the digital landscape`}
         </p>
         {/* eslint-disable-next-line @next/next/no-img-element */}
-        <img src='./services.webp' alt='Service__Image' className='Service__Image' />
+        {/* <img src='./services.webp' alt='Service__Image' className='Service__Image' /> */}
+        <Image
+          src={'/services.webp'}
+          alt='Service__Image'
+          width={1070}
+          height={652}
+          style={{
+            width: '95%',
+            height: 'auto',
+            marginTop: '3vw'
+          }}
+          property='true'
+          quality={100}
+        />
       </div>
       {/* Technology Section */}
       <div className='ServicePage__Landing'>

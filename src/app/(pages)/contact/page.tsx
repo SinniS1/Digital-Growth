@@ -1,3 +1,4 @@
+import Image from 'next/image'
 import './contactPage.css'
 export const metadata = {
   title: 'DigitalGrowth: Contact Us',
@@ -7,7 +8,16 @@ const Page = () => {
   return (
     <main className='ContactPage'>
       {/* eslint-disable-next-line @next/next/no-img-element */}
-      <img src='./ContactImage.webp' alt='Contact__Image' className='Contact__Image' />
+      {/* <img src='./ContactImage.webp' alt='Contact__Image' className='Contact__Image' /> */}
+      <Image
+        src={'/ContactImage.webp'}
+        alt='Contact__Image'
+        width={800}
+        height={800}
+        className='Contact__Image'
+        property='true'
+        quality={100}
+      />
       <div className='Contact__Form'>
         <div className='Contact__Title'>
           <span className='Contact__Heading'>Contact Us</span>

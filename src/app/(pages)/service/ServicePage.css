@@ -14,10 +14,10 @@
     align-items: center;
 }
 
-.Service__Image {
+/* .Service__Image {
     width: 50vw;
     margin-top: 3vw;
-}
+} */
 
 .Service__Heading {
     font-size: 3vw;
@@ -48,9 +48,9 @@
         width: 80vw;
     }
 
-    .Service__Image {
+    /* .Service__Image {
         width: 75vw;
-    }
+    } */
 
     .Service__Heading {
         font-size: 4vw;
@@ -76,9 +76,9 @@
         width: 80vw;
     }
 
-    .Service__Image {
+    /* .Service__Image {
         width: 75vw;
-    }
+    } */
 
     .Service__Heading {
         font-size: 5vw;

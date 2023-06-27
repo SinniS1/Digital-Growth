@@ -1,5 +1,6 @@
 import Link from 'next/link'
 import './FeatureSection.css'
+import Image from 'next/image'
 
 const FeatureSection = ({
   heading,
