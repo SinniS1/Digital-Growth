@@ -1,6 +1,7 @@
 import React from 'react'
 import './AboutPage.css'
 import FeatureSection from '@/app/components/FeatureSection/FeatureSection'
+import Image from 'next/image'
 export const metadata = {
   title: 'DigitalGrowth: About Us',
   description: 'About page of DigitalGrowth'
@@ -15,7 +16,17 @@ const page = () => {
           our digital solutions.
         </p>
         {/* eslint-disable-next-line @next/next/no-img-element */}
-        <img src='./AboutUs.webp' alt='About__Image' className='About__Image' />
+        {/* <img src='./AboutUs.webp' alt='About__Image' className='About__Image' /> */}
+        <Image
+          src={'/AboutUs.webp'}
+          alt='About__Image'
+          width={1127}
+          height={727}
+          style={{
+            width: '110%',
+            height: 'auto'
+          }}
+        />
         <span className='About__Heading'>Our mission</span>
         <p className='About__Para'>{`At DigitalGrowth , we believe in the transformative power of digital solutions. Our dedicated team of professionals is passionate about helping businesses succeed online. From designing visually stunning websites to developing innovative mobile apps and implementing targeted marketing campaigns, we empower our clients to reach their full potential in the digital world. Trust DigitalGrowth as your digital partner and embark on a journey of growth and success.`}</p>
       </div>

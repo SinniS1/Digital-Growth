@@ -13,7 +13,7 @@ export default function Home() {
         btn1Link={'/contact'}
         btn2={'Our Services'}
         btn2Link={'/service'}
-        image={'./HomePageImage.webp'}
+        image='/HomePageImage.webp'
         isLeftImage={false}
       />
 
@@ -23,7 +23,7 @@ export default function Home() {
         para={`Our digital solutions can transform your business into a growth engine.`}
         btn1='Contact Us'
         btn1Link='/contact'
-        image='./OnlinePresence.webp'
+        image='/OnlinePresence.webp'
         isLeftImage={false}
         CardClassName='CardContainer'
       />
@@ -36,7 +36,7 @@ export default function Home() {
         btn1Link='/contact'
         btn2='About Us'
         btn2Link='/about'
-        image='./WebsiteDevelopment.webp'
+        image='/WebsiteDevelopment.webp'
         isLeftImage={true}
       />
       {/* App Development */}
@@ -47,7 +47,7 @@ export default function Home() {
         btn1Link='/contact'
         btn2='About Us'
         btn2Link='/about'
-        image='./AppDevelopment.webp'
+        image='/AppDevelopment.webp'
         isLeftImage={false}
       />
       {/* DigitalMarketing */}
@@ -58,7 +58,7 @@ export default function Home() {
         btn1Link='/contact'
         btn2='About Us'
         btn2Link='/about'
-        image='./DigitalMarketing.webp'
+        image='/DigitalMarketing.webp'
         isLeftImage={true}
       />
 
