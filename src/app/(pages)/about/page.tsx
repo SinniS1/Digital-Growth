@@ -26,6 +26,8 @@ const page = () => {
             width: '110%',
             height: 'auto'
           }}
+          property='true'
+          quality={100}
         />
         <span className='About__Heading'>Our mission</span>
         <p className='About__Para'>{`At DigitalGrowth , we believe in the transformative power of digital solutions. Our dedicated team of professionals is passionate about helping businesses succeed online. From designing visually stunning websites to developing innovative mobile apps and implementing targeted marketing campaigns, we empower our clients to reach their full potential in the digital world. Trust DigitalGrowth as your digital partner and embark on a journey of growth and success.`}</p>
