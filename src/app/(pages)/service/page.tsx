@@ -26,7 +26,6 @@ const page = () => {
             height: 'auto',
             marginTop: '3vw'
           }}
-          property='true'
           quality={100}
         />
       </div>

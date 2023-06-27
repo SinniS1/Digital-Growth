@@ -20,13 +20,12 @@ const page = () => {
         <Image
           src={'/AboutUs.webp'}
           alt='About__Image'
-          width={1127}
-          height={727}
+          width={1280}
+          height={853}
           style={{
             width: '110%',
             height: 'auto'
           }}
-          property='true'
           quality={100}
         />
         <span className='About__Heading'>Our mission</span>
@@ -47,7 +46,7 @@ const page = () => {
           para={`Meet Sachin Yadav, a highly motivated and skilled web developer with a passion for creating engaging and user-friendly web applications. With a strong foundation in web technologies and responsive web design, Sachin brings a keen eye for detail and a collaborative mindset to every project.`}
           btn1={'Web Development'}
           btn1Link={'/contact'}
-          image='./SachinProfile.webp'
+          image='/SachinProfile.webp'
           profileImage={true}
           isLeftImage={true}
           CardClassName='CardContainer'
@@ -57,7 +56,7 @@ const page = () => {
           para={`Introducing Sukhvinder Singh, an accomplished App Developer with a passion for creating innovative mobile applications. With expertise in app development technologies and a keen eye for user experience, Sukhvinder brings a strong skill set to deliver mobile solutions.`}
           btn1={'App Development'}
           btn1Link={'/contact'}
-          image='./SukhiProfile.webp'
+          image='/SukhiProfile.webp'
           profileImage={true}
           isLeftImage={false}
           CardClassName='CardContainer'
@@ -67,7 +66,7 @@ const page = () => {
           para={`Introducing Bharat Yadav, a skilled Digital Marketing Manager. With a strong focus on driving successful digital campaigns, Bharat brings expertise in leveraging various marketing channels, increasing brand visibility. With a strategic mindset Bharat is dedicated to achieving outstanding results in the digital landscape.`}
           btn1={'Digital Marketing'}
           btn1Link={'/contact'}
-          image='./BharatProfile.webp'
+          image='/BharatProfile.webp'
           profileImage={true}
           isLeftImage={true}
           CardClassName='CardContainer'

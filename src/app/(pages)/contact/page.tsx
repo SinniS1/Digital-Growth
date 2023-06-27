@@ -15,7 +15,6 @@ const Page = () => {
         width={800}
         height={800}
         className='Contact__Image'
-        property='true'
         quality={100}
       />
       <div className='Contact__Form'>
