@@ -20,11 +20,23 @@ const FeatureSection = ({
       {isLeftImage && (
         <div>
           {/* eslint-disable-next-line @next/next/no-img-element */}
-          <img
+          {/* <img
             src={image}
             alt='FeatureSection__image'
             className={`${profileImage ? 'ProfileImage' : 'FeatureSection__image'}`}
             style={{ marginRight: profileImage ? '5px' : '0' }}
+          /> */}
+          <Image
+            src={image}
+            alt='FeatureSection__image'
+            className={`${profileImage ? 'ProfileImage' : 'FeatureSection__image'}`}
+            style={{
+              marginRight: profileImage ? '5px' : '0',
+              height: 'auto'
+            }}
+            width={1238}
+            height={993}
+            quality={100}
           />
         </div>
       )}
@@ -45,11 +57,23 @@ const FeatureSection = ({
       {isLeftImage || (
         <div>
           {/* eslint-disable-next-line @next/next/no-img-element */}
-          <img
+          {/* <img
             src={image}
             alt='FeatureSection__image'
             className={`${profileImage ? 'ProfileImage' : 'FeatureSection__image'}`}
             style={{ marginLeft: profileImage ? '5px' : '0' }}
+          /> */}
+          <Image
+            src={image}
+            alt='FeatureSection__image'
+            className={`${profileImage ? 'ProfileImage' : 'FeatureSection__image'}`}
+            style={{
+              marginLeft: profileImage ? '5px' : '0',
+              height: 'auto'
+            }}
+            width={1238}
+            height={933}
+            quality={100}
           />
         </div>
       )}
