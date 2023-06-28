@@ -15,7 +15,6 @@ export const metadata = {
     title: 'DigitalGrowth',
     description: 'A startup business, providing solutions for website development, app development',
     type: 'website',
-    url: 'https://digitalgrowth.vercel.app/',
     site_name: 'DigitalGrowth',
     images: '/HomePageImage.webp'
   }
