@@ -16,7 +16,8 @@ export const metadata = {
     description: 'A startup business, providing solutions for website development, app development',
     type: 'website',
     site_name: 'DigitalGrowth',
-    images: '/HomePageImage.webp'
+    url: 'https://digital-growth.vercel.app/',
+    images: '/DG_ShareImage.webp'
   }
 }
 
