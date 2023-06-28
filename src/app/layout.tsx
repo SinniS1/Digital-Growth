@@ -6,8 +6,19 @@ import { Poppins } from 'next/font/google'
 const inter = Poppins({ subsets: ['latin'], weight: ['400', '500', '600', '700'] })
 
 export const metadata = {
-  title: 'DigitalGrowth',
-  description: 'A startup business, providing solutions for web dev, mobile app dev'
+  title: {
+    template: 'DigitalGrowth: %s',
+    default: 'DigitalGrowth'
+  },
+  description: 'A startup business, providing solutions for web dev, mobile app dev',
+  openGraph: {
+    title: 'DigitalGrowth',
+    description: 'A startup business, providing solutions for website development, app development',
+    type: 'website',
+    url: 'https://digitalgrowth.vercel.app/',
+    site_name: 'DigitalGrowth',
+    images: '/HomePageImage.webp'
+  }
 }
 
 export default function RootLayout({ children }: { children: React.ReactNode }) {

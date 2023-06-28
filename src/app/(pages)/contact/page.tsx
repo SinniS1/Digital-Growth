@@ -1,7 +1,7 @@
 import Image from 'next/image'
 import './contactPage.css'
 export const metadata = {
-  title: 'DigitalGrowth: Contact Us',
+  title: 'Contact Us',
   description: 'Contact Form page of DigitalGrowth'
 }
 const Page = () => {

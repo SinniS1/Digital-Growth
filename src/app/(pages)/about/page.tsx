@@ -3,7 +3,7 @@ import './AboutPage.css'
 import FeatureSection from '@/app/components/FeatureSection/FeatureSection'
 import Image from 'next/image'
 export const metadata = {
-  title: 'DigitalGrowth: About Us',
+  title: 'About Us',
   description: 'About page of DigitalGrowth'
 }
 const page = () => {

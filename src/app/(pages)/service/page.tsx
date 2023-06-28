@@ -3,7 +3,7 @@ import './ServicePage.css'
 import CardSection from '@/app/components/CardSection/CardSection'
 import Image from 'next/image'
 export const metadata = {
-  title: 'DigitalGrowth: Services',
+  title: 'Services',
   description: 'Services page of DigitalGrowth'
 }
 const page = () => {
