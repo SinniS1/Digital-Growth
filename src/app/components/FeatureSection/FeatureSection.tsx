@@ -74,6 +74,7 @@ const FeatureSection = ({
             width={1238}
             height={933}
             quality={100}
+            priority={true}
           />
         </div>
       )}
